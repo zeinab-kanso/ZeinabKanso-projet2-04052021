@@ -1,4 +1,9 @@
 
+a {text-decoration: none;
+color: black;
+list-style: none;}
+ul{list-style-type: none;}
+
 
 
 
@@ -12,7 +17,4 @@
 
 /* footer */
 #footer { background-color: #f2f2f2; 
-    display: flex; 
-   justify-content: stretch ;
-}
-   #footer,ul{list-style-type: none;}
+    display: flex ;
