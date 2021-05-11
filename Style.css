@@ -1,20 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+ul {
+  list-style-type: none;
+}
 
-a {text-decoration: none;
-color: black;
-list-style: none;}
-ul{list-style-type: none;}
+.héberge-marseille {
+  background-color: #f2f2f2;
+}
 
-.héberge-marseille{background-color:#f2f2f2 ;}
-
-
-.populaires{background-color: #f2f2f2;}
-
-
-
-
-
-
+.populaires {
+  background-color: #f2f2f2;
+}
 
 /* footer */
-#footer { background-color: #f2f2f2; 
-    display: flex ;
+.footer {
+  background-color: #f2f2f2;
+  display: flex;
+}
