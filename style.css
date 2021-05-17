@@ -1,22 +1,154 @@
-a {
-  text-decoration: none;
-  color: black;
-  list-style: none;
-}
-ul {
-  list-style-type: none;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*General*/
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.héberge-marseille {
-  background-color: #f2f2f2;
+a {
+  text-decoration: none;
+  color: inherit;
 }
+
+a:hover {
+  color: #0065fc;
+}
+
+/*---header---*/
+/*logo*/
+#logo {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+/*nav*/
+
+#menu {
+  float: right;
+  display: flex;
+}
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  float: left;
+  padding-top: 25px;
+}
+#menu li a {
+  padding: 30px;
+}
+#menu li.active {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+}
+.nav-item {
+}
+
+.inscrip-menu {
+  color: #0065fc;
+  font-weight: bold;
+}
+/*---main---*/
+/*--section--*/
+
+/*trouver des hébergements*/
+.trouver {
+  padding-left: 25px;
+}
+.trouver h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.trouver p {
+  margin-top: 5px;
+}
+
+/*champs de recherche*/
+.recherche {
+  margin-left: 25px;
+}
+
+.recherche i.fas.fa-map-marker-alt {
+  border-radius: 15px 0 0 15px;
+  background-color: #f2f2f2;
+  height: 25px;
+  margin-right: -3px;
+}
+#search {
+  border: 1px solid #f2f2f2;
+  background-color: white;
+  width: 250px;
+}
+.button-recherche {
+  color: white;
+  background-color: #0065fc;
+  border-radius: 0 15px 15px 0;
+  width: 65px;
+  height: 25px;
+  border: none;
+}
+/*filtre*/
+
+.couleur-icone {
+  color: #0065fc;
+}
+
+/*--section hebergements--*/
+#hebergements {
+  background-color: #f2f2f2;
+  margin-left: 25px;
+  border-radius: 20px;
+}
+.heberge-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hotel-title {
+  font-weight: bold;
+}
+.etoilebleue {
+  color: #0065fc;
+}
+.etoilegris {
+  color: #f2f2f2;
+}
+.prix {
+  font-weight: bold;
+}
+
+/*--aside--*/
 
 .populaires {
   background-color: #f2f2f2;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 20px;
 }
 
-/* footer */
+/*--section activités--*/
+.activite-lieux {
+  font-weight: bold;
+}
+.activites-titre {
+  margin-left: 25px;
+}
+.activite-image {
+  display: grid;
+  grid-template-areas: "colonne1 colonne2 colonne3 colonne4";
+  grid-template-columns: 4fr;
+}
+/*--footer--*/
 .footer {
-  background-color: #f2f2f2;
   display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-around;
+}
+.footer ul {
+  list-style-type: none;
 }
