@@ -75,38 +75,41 @@ a:hover {
 .recherche i.fas.fa-map-marker-alt {
   border-radius: 15px 0 0 15px;
   background-color: #f2f2f2;
-  height: 25px;
-  margin-right: -3px;
+  height: 35px;
+  width: 35px;
 }
 #search {
   border: 1px solid #f2f2f2;
   background-color: white;
   width: 250px;
+  height: 35px;
 }
 .button-recherche {
   color: white;
   background-color: #0065fc;
-  border-radius: 0 15px 15px 0;
-  width: 65px;
-  height: 25px;
+  border-radius: 0 10px 10px 0;
+  width: 100px;
+  height: 35px;
   border: none;
+  margin-left: -8px;
 }
 /*filtre*/
-
-.couleur-icone {
+.titre-filtre {
+  background-color: white;
+}
+.forme-icone {
   color: #0065fc;
 }
 
+/*info*/
+.info-icone {
+  color: #0065fc;
+}
 /*--section hebergements--*/
 #hebergements {
   background-color: #f2f2f2;
   margin-left: 25px;
   border-radius: 20px;
-}
-.heberge-img {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .hotel-title {
@@ -138,11 +141,7 @@ a:hover {
 .activites-titre {
   margin-left: 25px;
 }
-.activite-image {
-  display: grid;
-  grid-template-areas: "colonne1 colonne2 colonne3 colonne4";
-  grid-template-columns: 4fr;
-}
+
 /*--footer--*/
 .footer {
   display: flex;
