@@ -142,7 +142,10 @@ a:hover {
 .etoilegris {
   color: #f2f2f2;
 }
-
+.section {
+  display: flex;
+  justify-content: space-around;
+}
 /*--aside--*/
 
 .populaires {
