@@ -54,7 +54,10 @@ a:hover {
 }
 /*---main---*/
 /*--section--*/
-
+.section {
+  display: flex;
+  justify-content: space-around;
+}
 /*trouver des hébergements*/
 .trouver {
   padding-left: 25px;
@@ -142,10 +145,7 @@ a:hover {
 .etoilegris {
   color: #f2f2f2;
 }
-.section {
-  display: flex;
-  justify-content: space-around;
-}
+
 /*--aside--*/
 
 .populaires {
