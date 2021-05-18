@@ -110,6 +110,8 @@ a:hover {
   background-color: #f2f2f2;
   margin-left: 25px;
   border-radius: 20px;
+  width: 880px;
+  height: 624px;
 }
 .heberge-bloc-img {
   display: grid;
@@ -146,6 +148,12 @@ a:hover {
 .populaires {
   background-color: #f2f2f2;
   border-radius: 20px;
+  width: 418px;
+  height: 624px;
+}
+.populaires-titre {
+  padding-left: 20px;
+  padding-top: 30px;
 }
 
 .populaires-img {
@@ -174,8 +182,17 @@ a:hover {
 .footer {
   display: flex;
   background-color: #f2f2f2;
-  justify-content: space-around;
 }
+
 .footer ul {
   list-style-type: none;
+}
+.footer-titre {
+  margin-left: 38px;
+}
+.a-propos {
+  margin-right: 224px;
+}
+.nos-heberge {
+  margin-right: 284px;
 }
