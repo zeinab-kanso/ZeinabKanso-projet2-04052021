@@ -175,9 +175,33 @@ a:hover {
   margin-left: 25px;
 }
 .image1-activite {
-  width: ;
+  width: 302px;
+  height: 390px;
+}
+.image2-activite {
+  width: 302px;
+  height: 180px;
+}
+.image3-activite {
+  width: 302px;
+  height: 109px;
+}
+.image4-activite {
+  width: 302px;
+  height: 390px;
+}
+.image5-activite {
+  width: 302px;
+  height: 140px;
+}
+.image6-activite {
+  width: 302px;
+  height: 152px;
 }
 
+.activite-images {
+  display: flex;
+}
 /*--footer--*/
 .footer {
   display: flex;
