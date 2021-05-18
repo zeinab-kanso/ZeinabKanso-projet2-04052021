@@ -111,27 +111,40 @@ a:hover {
   margin-left: 25px;
   border-radius: 20px;
 }
+.heberge-bloc-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
+.heberge-img {
+  width: 236px;
+  height: 112px;
+}
 .hotel-title {
   font-weight: bold;
 }
+.prix {
+  font-weight: bold;
+}
+
 .etoilebleue {
   color: #0065fc;
 }
 .etoilegris {
   color: #f2f2f2;
 }
-.prix {
-  font-weight: bold;
-}
 
 /*--aside--*/
 
 .populaires {
   background-color: #f2f2f2;
-  margin-right: 25px;
-  margin-left: 20px;
   border-radius: 20px;
+}
+
+.populaires-img {
+  width: 126px;
+  height: 134px;
 }
 
 /*--section activités--*/
