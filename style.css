@@ -132,9 +132,11 @@ a:hover {
   width: 880px;
   height: 624px;
 }
+
 #heberge-titre {
   margin: 44px 0px 28px 40px;
 }
+
 .heberge-bloc-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
@@ -187,24 +189,38 @@ a:hover {
   margin-left: 40px;
 }
 .populaires-titre {
-  margin-left: 44px;
-  margin-top: 38px;
+  padding-left: 46px;
+  padding-top: 36px;
   display: flex;
 }
-.populaires-titre .fas {margin-top: 30px;
-margin-left: 116PX;}
-.populaires-img {
-  width: 126px;
-  height: 134px;
-  float: left;
-  border-radius: 15px 0px 0px 15px;
+.populaires-titre .fas {
+margin-top: 30px;
+margin-left: 116PX;
 }
+
+.populaires-bloc-img {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 33px;
+  padding-left: 36px;
+  padding-bottom:  33px;
+}
+
 .populaires-img-description {
   border: 1px solid #f2f2f2;
   background-color: white;
   width: 344px;
   height: 144px;
   border-radius: 15px;
+  }
+  
+.populaires-img {
+  width: 126px;
+  height: 134px;
+  float: left;
+  border-radius: 15px 0px 0px 15px;
+ 
 }
 
 /*--section activités--*/
