@@ -139,7 +139,9 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
-  padding: 40px;
+  gap:30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .heberge-img-description {
@@ -148,6 +150,10 @@ a:hover {
   width: 246px;
   height: 201px;
   border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+  
 }
 .heberge-img {
   width: 236px;
@@ -167,7 +173,10 @@ a:hover {
 .etoilegris {
   color: #f2f2f2;
 }
-
+#affichage{
+  margin-left: 42px;
+  margin-bottom: 48px;
+}
 /*--aside--*/
 
 .populaires {
@@ -197,9 +206,7 @@ margin-left: 116PX;}
   height: 144px;
   border-radius: 15px;
 }
-#affichage{
-  margin-left: 42px;
-}
+
 /*--section activités--*/
 .activite-lieux {
   font-weight: bold;
