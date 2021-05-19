@@ -240,6 +240,8 @@ a:hover {
 .populaires-titre .fas {
   margin-top: 30px;
   margin-left: 116px;
+  width: 17px;
+  height: 24px;
 }
 
 .populaires-bloc-img {
@@ -248,7 +250,7 @@ a:hover {
   grid-template-rows: repeat(3, 1fr);
   gap: 33px;
   padding-left: 36px;
-  padding-bottom: 33px;
+  margin-bottom: 33px;
 }
 
 .populaires-img-description {
@@ -337,6 +339,8 @@ a:hover {
   height: 55px;
   margin-top: -4px;
   margin-bottom: 44px;
+  padding-left: 18px;
+  padding-top: 20px;
 }
 /*--footer--*/
 .footer {
