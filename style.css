@@ -114,15 +114,16 @@ a:hover {
 .forme-icone {
   color: #0065fc;
 }
-
+ 
 /*info*/
-.info-icone {
-  color: #0065fc;
-}
+
+
 .info-logement {
   display: flex;
   margin: 40px 0 40px 56px;
 }
+.info-logement .info-icone {
+  color: #0065fc; }   
 /*--section hebergements--*/
 #hebergements {
   background-color: #f2f2f2;
@@ -136,8 +137,9 @@ a:hover {
 }
 .heberge-bloc-img {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
+  padding: 40px;
 }
 
 .heberge-img-description {
@@ -145,10 +147,12 @@ a:hover {
   background-color: white;
   width: 246px;
   height: 201px;
+  border-radius: 15px;
 }
 .heberge-img {
   width: 236px;
   height: 112px;
+  border-radius: 15px 15px 0px 0px;
 }
 .hotel-title {
   font-weight: bold;
@@ -174,20 +178,27 @@ a:hover {
   margin-left: 40px;
 }
 .populaires-titre {
-  padding-left: 20px;
-  padding-top: 30px;
+  margin-left: 44px;
+  margin-top: 38px;
+  display: flex;
 }
-
+.populaires-titre .fas {margin-top: 30px;
+margin-left: 116PX;}
 .populaires-img {
   width: 126px;
   height: 134px;
   float: left;
+  border-radius: 15px 0px 0px 15px;
 }
 .populaires-img-description {
   border: 1px solid #f2f2f2;
   background-color: white;
   width: 344px;
   height: 144px;
+  border-radius: 15px;
+}
+#affichage{
+  margin-left: 42px;
 }
 /*--section activités--*/
 .activite-lieux {
@@ -224,6 +235,8 @@ a:hover {
 .activite-images {
   display: flex;
 }
+.activite-images .figure
+{border: 1px solid #f2f2f2;}
 /*--footer--*/
 .footer {
   display: flex;
