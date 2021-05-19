@@ -19,7 +19,7 @@ a:hover {
 /*---header---*/
 /*logo*/
 #logo {
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 /*nav*/
@@ -72,13 +72,16 @@ a:hover {
   margin-left: 50px;
 }
 
-.recherche i.fas.fa-map-marker-alt {
+.recherche .fas {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px 0 0 15px;
   background-color: #f2f2f2;
-  height: 34px;
+  height: 50px;
   width: 50px;
   margin-right: -4px;
-  padding-top: 15px;
+  margin-top: 0px;
 }
 
 #search {
@@ -92,7 +95,7 @@ a:hover {
   color: white;
   background-color: #0065fc;
   border-radius: 0 10px 10px 0;
-  width: 100px;
+  width: 130px;
   height: 50px;
   border: none;
   margin-left: -8px;
