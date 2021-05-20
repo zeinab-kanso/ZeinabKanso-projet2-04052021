@@ -18,10 +18,7 @@ a:hover {
 
 /*---header---*/
 /*logo*/
-.header {
-  max-width: 1440px;
-  margin: auto;
-}
+
 #logo {
   margin-top: 50px;
   margin-left: 50px;
@@ -203,12 +200,15 @@ a:hover {
 .heberge-img-description {
   border: 1px solid #f2f2f2;
   background-color: white;
-  width: 246px;
+  padding: 6px;
   height: 201px;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   object-fit: cover;
+}
+.heberge-img-description figure {
+  margin: 0;
 }
 .heberge-img {
   width: 236px;
@@ -273,8 +273,11 @@ a:hover {
   border: 1px solid #f2f2f2;
   background-color: white;
   width: 344px;
-  height: 144px;
+  padding: 6px;
   border-radius: 15px;
+}
+.populaires-img-description figure {
+  margin: 0;
 }
 
 .populaires-img {
