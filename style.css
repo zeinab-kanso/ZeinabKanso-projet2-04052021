@@ -111,43 +111,38 @@ a:hover {
   margin-left: 60px;
   padding-top: 25px;
 }
-.button-icone {
+.button-filtre {
   margin-left: 30px;
   display: flex;
+  margin-top: 30px;
+  gap: 25px;
 }
 .icone-filtre {
   border: 2px solid #f2f2f2;
+  background-color: white;
   border-radius: 50px;
-  border-left: none;
+  cursor: pointer;
   height: 50px;
-  margin-right: 25px;
-  justify-content: center;
-  margin-top: 30px;
+  border-left: none;
+  padding: 0;
 }
-
-.button-icone .fas {
+.icone-filtre .fas {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #f2f2f2;
   border-radius: 50%;
   background-color: #deebff;
   height: 50px;
   width: 50px;
-  margin-top: 0px;
+  margin-right: 10px;
 }
 
+.icone-filtre span {
+  font-weight: bold;
+  padding: 0 20px 0 0;
+}
 .forme-icone {
   color: #0065fc;
-}
-
-.choix-filtre {
-  font-weight: bold;
-  justify-content: center;
-  border: none;
-  background-color: white;
-  margin-top: 18px;
-  margin-right: 22px;
 }
 
 /*info*/
