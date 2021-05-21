@@ -73,24 +73,28 @@ a:hover {
 .recherche {
   margin-left: 50px;
   font-size: 1rem;
+  display: inline-flex;
+  flex-direction: row;
 }
 
-.recherche .fas {
-  display: inline-flex;
+.recherche .map-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px 0 0 15px;
   background-color: #f2f2f2;
   height: 50px;
   width: 50px;
-  margin-right: -5px;
   margin-top: 0px;
   font-size: 1.2rem;
 }
 
 #search {
-  border: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
   background-color: white;
+  border-left: none;
+  border-right: none;
   width: 250px;
   height: 50px;
   font-weight: bold;
@@ -103,7 +107,14 @@ a:hover {
   width: 130px;
   height: 50px;
   border: none;
-  margin-left: -8px;
+  width: 132px;
+  cursor: pointer;
+}
+.button-recherche :hover {
+  background-color: #d9d9d9;
+}
+#search-icon {
+  display: none;
 }
 /*filtre*/
 .filtres {
@@ -150,7 +161,6 @@ a:hover {
 .icone-filtre span {
   font-weight: bold;
   padding: 0 20px 0 0;
-  font-size: 1.1rem;
 }
 .forme-icone {
   color: #0065fc;
