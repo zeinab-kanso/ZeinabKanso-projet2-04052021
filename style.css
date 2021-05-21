@@ -433,3 +433,44 @@ a:hover {
 .nos-heberge {
   margin-right: 284px;
 }
+/*--version mobile--*/
+
+@media screen and (max-width: 768px) {
+  /*General*/
+
+  /*---header---*/
+
+  /*logo*/
+
+  /*nav*/
+  /*---main---*/
+  /*--section--*/
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /*trouver des hébergements*/
+
+  /*champs de recherche*/
+
+  /*filtre*/
+
+  /*info*/
+  /*--section hebergements--*/
+  .heberge-bloc-img {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  /*--aside--*/
+  /*--section activités--*/
+  .activite-images {
+    display: flex;
+    flex-direction: column;
+  }
+  /*--footer--*/
+  .footer {
+    flex-direction: column;
+  }
+}
