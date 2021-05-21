@@ -441,16 +441,20 @@ a:hover {
   /*---header---*/
   .header {
     margin: 0;
-    flex-direction: column;
   }
   /*logo*/
-
   #logo {
-    margin-left: 20px;
+    margin-left: 25px;
   }
-
   /*nav*/
 
+  #menu li.active {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+  #menu li.activite {
+    border-bottom: 2px solid #f2f2f2;
+  }
   /*---main---*/
   /*--section--*/
   .section {
@@ -483,6 +487,9 @@ a:hover {
   /*filtre*/
 
   /*info*/
+  .txt-info {
+    flex-wrap: wrap;
+  }
   /*--section hebergements--*/
   #hebergements {
     background-color: inherit;
@@ -502,5 +509,12 @@ a:hover {
   /*--footer--*/
   .footer {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .heberge-bloc-img {
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
   }
 }
