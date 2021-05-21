@@ -439,10 +439,18 @@ a:hover {
   /*General*/
 
   /*---header---*/
-
+  .header {
+    margin: 0;
+    flex-direction: column;
+  }
   /*logo*/
 
+  #logo {
+    margin-left: 20px;
+  }
+
   /*nav*/
+
   /*---main---*/
   /*--section--*/
   .section {
@@ -450,13 +458,35 @@ a:hover {
     flex-direction: column-reverse;
   }
   /*trouver des hébergements*/
-
+  .trouver {
+    flex-wrap: wrap;
+  }
   /*champs de recherche*/
+  .recherche {
+    position: relative;
+  }
 
+  #search {
+    width: 300px;
+    height: 50px;
+  }
+  .button-recherche {
+    display: none;
+  }
+  #search-icon {
+    display: block;
+    position: absolute;
+    right: -20px;
+    border-radius: 15px;
+    width: 50px;
+  }
   /*filtre*/
 
   /*info*/
   /*--section hebergements--*/
+  #hebergements {
+    background-color: inherit;
+  }
   .heberge-bloc-img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
