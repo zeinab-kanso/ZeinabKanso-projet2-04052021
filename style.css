@@ -17,44 +17,54 @@ a:hover {
 }
 
 /*---header---*/
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*logo*/
 
 #logo {
-  margin-top: 50px;
-  margin-left: 50px;
+  margin: 35px 0 0 50px;
 }
 /*nav*/
 
-#menu {
-  float: right;
+.menu {
   display: flex;
   margin-right: 75px;
 }
-#menu ul {
+.nav-item {
+  display: flex;
+}
+.menu ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#menu ul li {
-  float: left;
+.menu ul li {
   padding-top: 50px;
 }
-#menu li a {
-  padding: 30px;
-}
-#menu li.active {
-  border-top: 2px solid #0065fc;
-  color: #0065fc;
+.menu li a {
+  padding-left: 30px;
+  padding-right: 35px;
 }
 
+.menu li a:hover {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+  padding-top: 48px;
+}
 .inscrip-menu {
   color: #0065fc;
   font-weight: bold;
+  padding-top: 50px;
+  padding-left: 30px;
 }
+
 /*---main---*/
 /*--section--*/
-.section {
+.partie-hotel {
   display: flex;
 }
 /*trouver des hébergements*/
@@ -439,25 +449,48 @@ a:hover {
   /*General*/
 
   /*---header---*/
-  .header {
-    margin: 0;
+
+  .logo-menu {
+    margin: 0em;
+    flex-direction: column;
   }
-  /*logo*/
   #logo {
-    margin-left: 25px;
+    margin-left: 20px;
+    size: inherit;
   }
   /*nav*/
+  .inscrip-menu {
+    align-self: flex-end;
+    padding: 0;
+    margin-right: 20px;
+    position: relative;
+    bottom: 40px;
+  }
 
-  #menu li.active {
-    border-bottom: 2px solid #0065fc;
+  .menu ul {
+    width: 100%;
+  }
+
+  .menu ul li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  .menu ul li:hover {
+    border-bottom-color: #0065fc;
+  }
+  .menu li a {
+    padding: inherit;
+  }
+
+  .menu li a:hover {
     border-top: none;
   }
-  #menu li.activite {
-    border-bottom: 2px solid #f2f2f2;
-  }
+
   /*---main---*/
   /*--section--*/
-  .section {
+  .partie-hotel {
     display: flex;
     flex-direction: column-reverse;
   }
