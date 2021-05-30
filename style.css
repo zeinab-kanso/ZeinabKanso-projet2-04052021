@@ -26,13 +26,14 @@ a:hover {
 
 #logo {
   margin: 35px 0 0 50px;
-  flex: 1;
+}
+.logo-site {
+  flex: 2;
 }
 /*nav*/
 
 .menu {
   display: flex;
-  margin-right: 70px;
 }
 .nav-item {
   display: flex;
@@ -56,11 +57,10 @@ a:hover {
   color: #0065fc;
   padding-top: 48px;
 }
-.inscrip-menu {
+.inscription {
   color: #0065fc;
   font-weight: bold;
-  padding-top: 50px;
-  padding-left: 30px;
+  padding: 50px 70px 0 30px;
 }
 
 /*---main---*/
@@ -331,7 +331,7 @@ a:hover {
 .populaires-img-description {
   font-size: 1rem;
 }
-.populaires-img-description .description {
+.populaires-img-description .description-nuit {
   font-size: 1rem;
   padding-left: 20px;
   margin-bottom: 25px;
@@ -351,73 +351,10 @@ a:hover {
   margin-left: 50px;
   margin-top: 65px;
 }
-.image1-activite {
-  width: 302px;
-  height: 390px;
-  border-radius: 15px 15px 0px 0px;
-}
-.image2-activite {
-  width: 302px;
-  height: 180px;
-  border-radius: 15px 15px 0px 0px;
-}
-.image3-activite {
-  width: 302px;
-  height: 109px;
-  border-radius: 15px 15px 0px 0px;
-}
-.image4-activite {
-  width: 302px;
-  height: 390px;
-  border-radius: 15px 15px 0px 0px;
-}
-.image5-activite {
-  width: 302px;
-  height: 140px;
-  border-radius: 15px 15px 0px 0px;
-}
-.image6-activite {
-  width: 302px;
-  height: 152px;
-  border-radius: 15px 15px 0px 0px;
-}
-
-.activite-images {
-  display: flex;
-  margin-bottom: 70px;
-}
-.colonne1 {
-  height: 445px;
-  width: 300px;
-  padding-right: 44px;
-}
-.colonne2 {
-  height: 445px;
-  width: 300px;
-  padding-right: 44px;
-}
-.colonne3 {
-  height: 445px;
-  width: 300px;
-  padding-right: 44px;
-}
-.colonne4 {
-  height: 445px;
-  width: 300px;
-  padding-right: 44px;
+.activite-marseille {
 }
 .activite-lieux {
   font-weight: bold;
-  box-sizing: border-box;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-shadow: 0 0 1px 1px lightgrey;
-  width: 300px;
-  height: 55px;
-  margin-top: -4px;
-  margin-bottom: 44px;
-  padding-left: 18px;
-  padding-top: 20px;
 }
 /*--footer--*/
 .footer {
@@ -526,14 +463,10 @@ a:hover {
     flex-wrap: wrap;
   }
   .colonne2 {
-    height: none;
-    width: none;
     display: flex;
     flex-direction: row;
   }
   .colonne4 {
-    height: none;
-    width: none;
     display: flex;
     flex-direction: row;
   }
@@ -546,33 +479,6 @@ a:hover {
   }
 }
 @media only screen and (max-width: 770px) {
-  .logo-menu {
-    margin: 0em;
-    flex-direction: column;
-  }
-  .inscrip-menu {
-    padding: 0;
-    margin-right: 20px;
-  }
-  .menu ul {
-    width: 100%;
-  }
-  .menu ul li {
-    width: 50%;
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 3px solid #f2f2f2;
-  }
-  .menu ul li:hover {
-    border-bottom-color: #0065fc;
-  }
-  .menu li a {
-    padding: inherit;
-  }
-
-  .menu li a:hover {
-    border-top: none;
-  }
   .txt-info {
     flex-wrap: wrap;
   }
@@ -598,6 +504,12 @@ a:hover {
     border-radius: 15px;
     width: 50px;
   }
+  .filtres {
+    flex-direction: column;
+  }
+  .button-filtre {
+    flex-wrap: wrap;
+  }
   .populaires-bloc-img {
     display: grid;
     grid-template-columns: 1fr;
@@ -615,7 +527,44 @@ a:hover {
   }
 }
 /*--Version mobile--*/
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
+  .logo-menu {
+    margin: 0;
+    flex-direction: column;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  .inscription {
+    align-self: flex-end;
+    padding: 0;
+    margin-right: 25px;
+    position: relative;
+    bottom: 30px;
+  }
+  .menu {
+    order: 3;
+  }
+  .menu ul {
+    width: 100%;
+  }
+  .menu ul li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  .menu ul li:hover {
+    border-bottom-color: #0065fc;
+  }
+  .menu li a {
+    padding: inherit;
+  }
+
+  .menu li a:hover {
+    border-top: none;
+  }
+
   .heberge-bloc-img {
     display: grid;
     grid-template-columns: 1fr;
