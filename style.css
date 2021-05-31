@@ -354,7 +354,7 @@ a:hover {
 .activite-marseille {
   margin-left: 50px;
   display: grid;
-  width: 90%;
+  width: 95%;
   height: 500px;
   margin-bottom: 60px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -448,11 +448,8 @@ a:hover {
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-  .activite-images img {
-    width: 260px;
-  }
-  .activite-lieux {
-    width: 258px;
+  .activite-marseille {
+    width: 90%;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -508,14 +505,20 @@ a:hover {
     margin-bottom: 20px;
     margin-left: 50px;
   }
+
   .activite-marseille {
+    margin-bottom: 60px;
     display: grid;
+    width: 95%;
+    height: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
-      "activite1 activite2"
-      "activite3 activite4"
-      "activite5 activite6";
+      "activite1 activite2 activite3"
+      "activite4 activite5 activite6";
+  }
+  .activite-image {
+    height: 250px;
   }
   #activite1 {
     grid-area: activite1;
