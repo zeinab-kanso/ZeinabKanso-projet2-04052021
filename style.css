@@ -417,15 +417,24 @@ a:hover {
 }
 
 /*--footer--*/
-.footer {
+footer {
+  width: 100%;
   display: flex;
   background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+}
+.partie-footer {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.footer ul {
+.partie-footer ul {
   list-style-type: none;
 }
-.footer ul li {
+.partie-footer ul li {
   padding-bottom: 20px;
 }
 
@@ -434,25 +443,24 @@ a:hover {
   margin-bottom: 28px;
   margin-top: 48px;
 }
-.a-propos {
-  margin-right: 220px;
-}
-.nos-heberge {
-  margin-right: 270px;
-}
 
+.assistance {
+  margin-right: 26%;
+}
 @media only screen and (max-width: 1280px) {
+  main {
+    width: 95%;
+  }
   .heberge-bloc-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-
-  .activite-marseille {
-    width: 90%;
-  }
 }
 @media only screen and (max-width: 1024px) {
+  main {
+    width: 92%;
+  }
   .partie-hotel {
     display: flex;
     flex-direction: column-reverse;
@@ -477,6 +485,9 @@ a:hover {
   }
   .populaires-img-description {
     width: 97%;
+  }
+  .populaires-img-description img {
+    height: 100%;
   }
   .heberge-bloc-img {
     display: grid;
@@ -538,6 +549,9 @@ a:hover {
   #activite6 {
     grid-area: activite6;
   }
+  .partie-footer .assistance {
+    margin-right: 20%;
+  }
 }
 @media only screen and (max-width: 770px) {
   .txt-info {
@@ -570,14 +584,26 @@ a:hover {
   }
   .button-filtre {
     flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .populaires {
+    width: 95%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .populaires-bloc-img {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
+    padding-right: 25px;
   }
-
+  .populaires-img-description figure {
+    height: 100%;
+  }
+  #hebergements {
+    width: 95%;
+  }
   .heberge-bloc-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -588,6 +614,7 @@ a:hover {
   }
   .activite-marseille {
     display: grid;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
@@ -612,6 +639,9 @@ a:hover {
   }
   #activite6 {
     grid-area: activite6;
+  }
+  .partie-footer .assistance {
+    margin-right: 13%;
   }
 }
 /*--Version mobile--*/
@@ -690,7 +720,7 @@ a:hover {
     grid-area: activite6;
   }
 
-  .footer {
+  .partie-footer {
     display: flex;
     flex-direction: column;
   }
