@@ -764,7 +764,10 @@ footer {
     grid-area: activite6;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 376px) {
+  main {
+    width: 376px;
+  }
   #logo {
     margin-left: 20px;
   }
@@ -786,12 +789,48 @@ footer {
   .info-logement {
     margin-left: 23px;
   }
-  .activite-marseille {
-    margin-left: 20px;
-    margin-bottom: 50px;
+
+  .populaires {
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 37px;
   }
-  .activite-marseille img {
-    width: 333px;
+  .populaires-titre {
+    padding: 45px 0 0 20px;
+  }
+  .populaires-bloc-img {
+    padding: 0 26px 0 20px;
+    gap: 10px;
+  }
+
+  #hebergements {
+    width: 100%;
+    margin-left: 0px;
+    background-color: initial;
+  }
+  #heberge-titre h2 {
+    margin: 44px 0 22px 0;
+  }
+  .heberge-bloc-img {
+    padding: 0 26px 0 20px;
+    gap: 12px;
+  }
+  .activites-titre {
+    margin-top: 0;
+  }
+  .activite-marseille {
+    margin: 0 20px 50px 20px;
+    gap: 12px;
+  }
+
+  .activite-image {
+    width: 335px;
+    margin-right: 0;
+  }
+
+  .activite-lieux {
+    padding: 22px 0 20px 12px;
+    width: 97%;
   }
 }
 @media only screen and (max-width: 280px) {
