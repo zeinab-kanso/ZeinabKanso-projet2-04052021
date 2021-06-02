@@ -837,4 +837,14 @@ footer {
   #search {
     width: 180px;
   }
+  main {
+    width: 285px;
+  }
+
+  .activite-image {
+    width: 240px;
+  }
+  .activite-lieux {
+    width: 95%;
+  }
 }
