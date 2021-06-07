@@ -282,17 +282,17 @@ a:hover {
   margin-left: 40px;
 }
 .populaires-titre {
-  padding: 40px 40px 0 46px;
+  margin: 40px 40px 0 46px;
   display: flex;
-  justify-content: stretch;
 }
 .populaires-titre h2 {
-  margin-top: 0;
+  margin-top: -5px;
 }
 .populaires-titre .fas {
-  flex: 2;
   width: 17px;
   height: 24px;
+  margin-left: 106px;
+  margin-bottom: 20px;
 }
 
 .populaires-bloc-img {
@@ -472,7 +472,14 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
-
+  .populaires-titre {
+    display: flex;
+    justify-content: space-between;
+  }
+  .populaires {
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
   .populaires-bloc-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -481,10 +488,6 @@ footer {
     padding: 0 30px 0 30px;
   }
 
-  .populaires {
-    margin-bottom: 20px;
-    margin-left: 50px;
-  }
   .populaires-img-description {
     width: 97%;
   }
@@ -510,16 +513,6 @@ footer {
   }
   .heberge-img-description {
     width: 100%;
-  }
-  .populaires-titre {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin: 0;
-  }
-  .populaires {
-    margin-bottom: 20px;
-    margin-left: 50px;
   }
 
   .activite-marseille {
@@ -733,9 +726,15 @@ footer {
   }
 }
 /*--Version mobile--*/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 451px) {
   #search {
     width: 230px;
+  }
+  .populaires-titre {
+    margin-right: 35px;
+  }
+  .populaires-titre .fas {
+    margin-left: 0;
   }
   .heberge-bloc-img {
     display: grid;
@@ -808,8 +807,9 @@ footer {
     width: 376px;
   }
   .populaires-titre {
-    padding: 45px 0 0 20px;
+    margin: 45px 20px 0 30px;
   }
+
   .populaires-bloc-img {
     padding: 0 26px 0 20px;
     gap: 10px;
