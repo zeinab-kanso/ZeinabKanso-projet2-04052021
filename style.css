@@ -729,7 +729,7 @@ footer {
   }
 }
 /*--Version mobile--*/
-@media only screen and (max-width: 451px) {
+@media only screen and (max-width: 415px) {
   #search {
     width: 230px;
   }
@@ -738,6 +738,13 @@ footer {
   }
   .populaires-titre .fas {
     margin-left: 0;
+  }
+  .populaires-img-description figure {
+    height: 100%;
+  }
+  .populaires-img-description .populaires-img {
+    height: 133px;
+    width: 127px;
   }
   .heberge-bloc-img {
     display: grid;
@@ -774,6 +781,9 @@ footer {
   }
   #activite6 {
     grid-area: activite6;
+  }
+  .activites-lieux {
+    padding-right: 2px;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -814,13 +824,18 @@ footer {
   }
 
   .populaires-bloc-img {
-    padding: 0 26px 0 20px;
+    padding: 0 20px 0 20px;
     gap: 10px;
   }
 
+  .populaires-img-description .populaires-img {
+    height: 133px;
+    width: 127px;
+  }
+
   #hebergements {
-    width: 100%;
-    margin-left: 0px;
+    max-width: 376px;
+    margin-left: 0;
     background-color: initial;
   }
   #heberge-titre h2 {
