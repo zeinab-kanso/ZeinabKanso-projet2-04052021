@@ -713,6 +713,13 @@ footer {
   .button-filtre {
     gap: 12px;
   }
+  .heberge-img {
+    width: 100%;
+  }
+  .heberge-bloc-img {
+    max-width: 550px;
+    gap: 20px;
+  }
   .activite-lieux {
     padding-right: 1px;
   }
