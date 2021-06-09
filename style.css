@@ -547,7 +547,7 @@ footer {
     margin-right: 20%;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
   #logo {
     margin-left: 30px;
   }
@@ -729,7 +729,7 @@ footer {
   }
 }
 /*--Version mobile--*/
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 420px) {
   #search {
     width: 230px;
   }
@@ -738,6 +738,9 @@ footer {
   }
   .populaires-titre .fas {
     margin-left: 0;
+  }
+  .populaires-bloc-img {
+    padding: 0 20px 0 20px;
   }
   .populaires-img-description figure {
     height: 100%;
@@ -751,6 +754,15 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
+    padding: 0 13px 0 13px;
+  }
+  .heberge-bloc-img .heberge-img {
+    width: 320px;
+    height: 114px;
+  }
+  #affichage {
+    margin-top: 35px;
+    margin-left: 20px;
   }
   .activite-marseille {
     display: grid;
@@ -786,9 +798,9 @@ footer {
     padding-right: 2px;
   }
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 380px) {
   main {
-    max-width: 376px;
+    max-width: 380px;
   }
   #logo {
     margin-left: 20px;
@@ -824,13 +836,7 @@ footer {
   }
 
   .populaires-bloc-img {
-    padding: 0 20px 0 20px;
-    gap: 10px;
-  }
-
-  .populaires-img-description .populaires-img {
-    height: 133px;
-    width: 127px;
+    gap: 12px;
   }
 
   #hebergements {
@@ -846,10 +852,7 @@ footer {
     padding-right: 0;
     gap: 12px;
   }
-  .heberge-bloc-img .heberge-img {
-    width: 320px;
-    height: 114px;
-  }
+
   .heberge-img-description {
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px #f2f2f2;
@@ -858,10 +861,11 @@ footer {
   }
   .activites-titre {
     margin-top: 0;
+    margin-left: 20px;
   }
   .activite-marseille {
     margin: 0 20px 50px 20px;
-    gap: 12px;
+    gap: 20px;
   }
 
   .activite-image {
@@ -878,26 +882,137 @@ footer {
   main {
     max-width: 360px;
   }
-  .activite-image {
-    width: 320px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  main {
-    max-width: 320px;
+  h3 {
+    font-size: 1.1rem;
   }
   #search {
     max-width: 180px;
+  }
+  .populaires {
+    max-width: 360px;
+  }
+  .populaires-titre {
+    justify-content: initial;
+  }
+  .populaires-titre .fas {
+    margin-left: 20px;
+  }
+  .populaires-bloc-img {
+    width: 292px;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-right: 0px;
+  }
+  .populaires-img-description figure {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .heberge-bloc-img {
+    width: 292px;
+  }
+  .populaires-bloc-img .populaires-img {
+    border-radius: 15px 15px 0px 0px;
+    width: 285px;
+  }
+
+  .heberge-img-description figure {
+    width: 280px;
+  }
+  .heberge-img-description .heberge-img {
+    width: 280px;
+    justify-content: center;
+  }
+  #heberge-titre {
+    margin-left: 30px;
+  }
+  .activite-image {
+    width: 292px;
+  }
+  .activite-lieux {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  main {
+    max-width: 300px;
+  }
+  #logo {
+    margin-left: 10px;
+  }
+  .inscription {
+    margin-right: 10px;
+  }
+  .trouver {
+    padding-left: 10px;
+  }
+  .recherche {
+    margin-left: 10px;
+  }
+  .titre-filtre {
+    margin-left: 10px;
+  }
+  .button-filtre {
+    margin-left: 10px;
+  }
+  .info-logement {
+    margin-left: 13px;
+  }
+  .partie-hotel {
+    max-width: 230px;
+  }
+  .populaires {
+    max-width: 280px;
+  }
+  .populaires-titre {
+    margin-left: 15px;
+  }
+
+  .populaires-bloc-img {
+    width: 250px;
+    padding-left: 10px;
+  }
+
+  .populaires-img-description figure {
+    width: 238px;
+  }
+  .populaires-bloc-img .populaires-img {
+    width: 238px;
+  }
+  #heberge-titre {
+    margin-left: 15px;
+  }
+  .heberge-bloc-img {
+    width: 250px;
+    padding-left: 10px;
+  }
+
+  .heberge-img-description figure {
+    width: 238px;
+  }
+  .heberge-img-description .heberge-img {
+    width: 238px;
+  }
+
+  .activite-marseille {
+    margin-left: 10px;
+  }
+  .activites-titre {
+    margin-left: 10px;
+  }
+  .activite-image {
+    width: 250px;
+  }
+  .activite-lieux {
+    width: 240px;
   }
 }
 @media only screen and (max-width: 280px) {
   main {
     max-width: 280px;
   }
-  .activite-image {
-    width: 240px;
-  }
-  .activite-lieux {
-    width: 95%;
+  .partie-hotel {
+    max-width: 280px;
   }
 }
