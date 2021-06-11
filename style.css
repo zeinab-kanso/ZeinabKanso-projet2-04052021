@@ -880,6 +880,12 @@ footer {
     padding: 22px 0 20px 12px;
     width: 97%;
   }
+  .partie-footer {
+    max-width: 375px;
+  }
+  body {
+    max-width: 375px;
+  }
 }
 @media only screen and (max-width: 360px) {
   main {
