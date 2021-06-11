@@ -936,6 +936,9 @@ footer {
   #heberge-titre {
     margin-left: 30px;
   }
+  .activite-marseille {
+    max-width: 340px;
+  }
   .activite-image {
     width: 292px;
   }
