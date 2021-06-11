@@ -875,7 +875,9 @@ footer {
     width: 335px;
     margin-right: 0;
   }
-
+  #activite {
+    max-width: 375px;
+  }
   .activite-lieux {
     padding: 22px 0 20px 12px;
     width: 97%;
