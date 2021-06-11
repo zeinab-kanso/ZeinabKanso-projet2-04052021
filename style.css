@@ -733,6 +733,9 @@ footer {
   #search {
     width: 230px;
   }
+  h2 {
+    font-size: 1.2em;
+  }
   .populaires-titre {
     margin-right: 35px;
   }
@@ -1014,5 +1017,56 @@ footer {
   }
   .partie-hotel {
     max-width: 280px;
+  }
+}
+@media only screen and (max-width: 240px) {
+  header {
+    max-width: 240px;
+  }
+
+  main {
+    max-width: 240px;
+  }
+  #search {
+    max-width: 155px;
+    padding-left: 10px;
+  }
+  .partie-hotel {
+    max-width: 240px;
+  }
+  .populaires {
+    max-width: 240px;
+  }
+
+  .populaires-bloc-img {
+    width: 220px;
+  }
+
+  .populaires-img-description figure {
+    width: 206px;
+  }
+  .populaires-bloc-img .populaires-img {
+    width: 206px;
+  }
+
+  .heberge-bloc-img {
+    width: 220px;
+  }
+
+  .heberge-img-description figure {
+    width: 206px;
+  }
+  .heberge-img-description .heberge-img {
+    width: 206px;
+  }
+
+  .activite-image {
+    width: 220px;
+  }
+  .activite-lieux {
+    width: 210px;
+  }
+  .partie-footer {
+    max-width: 240px;
   }
 }
