@@ -801,9 +801,9 @@ footer {
     padding-right: 2px;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 376px) {
   main {
-    max-width: 380px;
+    max-width: 376px;
   }
   #logo {
     margin-left: 20px;
