@@ -729,7 +729,7 @@ footer {
   }
 }
 /*--Version mobile--*/
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   #search {
     width: 230px;
   }
