@@ -803,7 +803,7 @@ footer {
 }
 @media only screen and (max-width: 376px) {
   main {
-    max-width: 376px;
+    max-width: 375px;
   }
   #logo {
     margin-left: 20px;
@@ -827,12 +827,12 @@ footer {
     margin-left: 23px;
   }
   .partie-hotel {
-    width: 376px;
+    width: 375px;
   }
   .populaires {
     margin-left: 0px;
     margin-bottom: 37px;
-    width: 376px;
+    width: 375px;
   }
   .populaires-titre {
     margin: 45px 20px 0 30px;
@@ -843,7 +843,7 @@ footer {
   }
 
   #hebergements {
-    max-width: 376px;
+    max-width: 375px;
     margin-left: 0;
     background-color: initial;
   }
