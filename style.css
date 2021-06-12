@@ -461,12 +461,20 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1100px) {
   .logo-menu {
     max-width: 97%;
   }
   main {
     max-width: 92%;
+  }
+  .filtres {
+    flex-direction: column;
+  }
+  .button-filtre {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 50px;
   }
   .partie-hotel {
     display: flex;
@@ -547,17 +555,36 @@ footer {
     margin-right: 20%;
   }
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 970px) {
+  .populaires {
+    width: 96%;
+    margin-left: 40px;
+  }
+  .populaires-img-description {
+    width: 96%;
+  }
+
+  #hebergements {
+    width: 96%;
+    margin-left: 40px;
+  }
+
+  .heberge-img {
+    max-width: 218px;
+  }
+  .heberge-bloc-img {
+    gap: 20px;
+    padding: 0 30px;
+    width: auto;
+  }
+  .activite-marseille {
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 870px) {
   #logo {
     margin-left: 30px;
   }
-  .txt-info {
-    flex-wrap: wrap;
-  }
-  .trouver {
-    flex-wrap: wrap;
-  }
-
   .recherche {
     position: relative;
   }
@@ -582,15 +609,11 @@ footer {
     border-radius: 15px;
     width: 50px;
   }
-  .filtres {
-    flex-direction: column;
-  }
+
   .titre-filtre {
     margin-left: 33px;
   }
   .button-filtre {
-    flex-wrap: wrap;
-    margin-top: 0px;
     margin-left: 30px;
   }
 
@@ -599,7 +622,6 @@ footer {
   }
 
   .populaires {
-    width: 95%;
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 30px;
@@ -612,15 +634,11 @@ footer {
     padding-right: 30px;
     padding-left: 30px;
   }
-  .populaires-img-description .populaires-img {
-    width: 189px;
-  }
   #hebergements {
-    width: 95%;
     margin-left: 30px;
   }
   .heberge-bloc-img {
-    width: auto;
+    max-width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -628,6 +646,27 @@ footer {
     column-gap: 25px;
     padding: 0 30px 0 30px;
   }
+}
+@media only screen and (max-width: 768px) {
+  .txt-info {
+    flex-wrap: wrap;
+  }
+  .trouver {
+    flex-wrap: wrap;
+  }
+
+  .populaires {
+    width: 95%;
+  }
+
+  .populaires-img-description .populaires-img {
+    width: 189px;
+  }
+  #hebergements {
+    width: 95%;
+    margin-left: 30px;
+  }
+
   .heberge-img {
     width: 278px;
   }
@@ -673,7 +712,7 @@ footer {
     padding-right: 1px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .logo-menu {
     margin: 0;
     flex-direction: column;
@@ -721,7 +760,7 @@ footer {
     gap: 20px;
   }
   .activite-lieux {
-    padding-right: 1px;
+    max-width: 204px;
   }
   .partie-footer {
     display: flex;
@@ -797,8 +836,8 @@ footer {
   #activite6 {
     grid-area: activite6;
   }
-  .activites-lieux {
-    padding-right: 2px;
+  .activite-lieux {
+    max-width: 380px;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -898,6 +937,9 @@ footer {
   #search {
     max-width: 180px;
   }
+  .partie-hotel {
+    max-width: 360px;
+  }
   .populaires {
     max-width: 360px;
   }
@@ -913,29 +955,34 @@ footer {
     padding-bottom: 30px;
     padding-right: 0px;
   }
+  .populaires-img-description {
+    max-width: 280px;
+  }
   .populaires-img-description figure {
     display: flex;
     flex-direction: column;
     width: 280px;
   }
-  .heberge-bloc-img {
-    width: 292px;
-  }
+
   .populaires-bloc-img .populaires-img {
     border-radius: 15px 15px 0px 0px;
-    width: 285px;
+    width: 280px;
   }
 
   .heberge-img-description figure {
     width: 280px;
   }
-  .heberge-img-description .heberge-img {
-    width: 280px;
-    justify-content: center;
+  .heberge-bloc-img {
+    width: 292px;
   }
   #heberge-titre {
     margin-left: 30px;
   }
+  .heberge-img-description .heberge-img {
+    width: 280px;
+    justify-content: center;
+  }
+
   .activite-marseille {
     max-width: 340px;
   }
@@ -944,6 +991,9 @@ footer {
   }
   .activite-lieux {
     width: 280px;
+  }
+  .partie-footer {
+    max-width: 360px;
   }
 }
 
