@@ -903,6 +903,9 @@ footer {
   #search {
     max-width: 180px;
   }
+  .partie-hotel {
+    max-width: 360px;
+  }
   .populaires {
     max-width: 360px;
   }
@@ -923,14 +926,17 @@ footer {
     flex-direction: column;
     width: 280px;
   }
+
+  .populaires-bloc-img .populaires-img {
+    border-radius: 15px 15px 0px 0px;
+    width: 280px;
+  }
+  #hebergements {
+    max-width: 360px;
+  }
   .heberge-bloc-img {
     width: 292px;
   }
-  .populaires-bloc-img .populaires-img {
-    border-radius: 15px 15px 0px 0px;
-    width: 285px;
-  }
-
   .heberge-img-description figure {
     width: 280px;
   }
@@ -949,6 +955,9 @@ footer {
   }
   .activite-lieux {
     width: 280px;
+  }
+  .partie-footer {
+    max-width: 360px;
   }
 }
 
